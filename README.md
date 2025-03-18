@@ -11,6 +11,9 @@
 ## 개발자
 
 [@BaileyChoi](https://github.com/BaileyChoi)
+
 [@dlekgus](https://github.com/dlekgus)
+
 [@ubeeni](https://github.com/ubeeni)
+
 [@kwangsun1999](https://github.com/kwangsun1999)
