@@ -1,79 +1,80 @@
 * {
-  margin: 0;
-  border: 0;
+	margin: 0;
+	border: 0;
 }
 
 body {
-  margin: auto;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  font-family: Arial, sans-serif;
-  justify-content: center;
+	margin: auto;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	font-family: Arial, sans-serif;
+	justify-content: center;
+	overflow-x: hidden;
 }
 
 .container {
-  background-color: white;
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  /* margin: auto; */
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	/* margin: auto; */
 }
 
 header {
-  background: #ff5733;
-  color: white;
-  padding: 10px;
-  width: 100%;
-  text-align: center;
+	background: #ff5733;
+	color: white;
+	padding: 10px;
+	width: 100%;
+	text-align: center;
 }
 header h1 {
-  margin-bottom: 20px;
+	margin-bottom: 20px;
 }
 
 ul li {
-  /* list-style: none; */
+	/* list-style: none; */
 }
 
 nav a {
-  color: white;
-  margin: 0 15px;
-  text-decoration: none;
-  font-weight: bold;
+	color: white;
+	margin: 0 15px;
+	text-decoration: none;
+	font-weight: bold;
 }
 
 .recipe-detail {
-  padding: 10px;
-  /* background: #fff0e0; */
-  padding-top: 20px;
+	padding: 10px;
+	/* background: #fff0e0; */
+	padding-top: 20px;
 }
 
 .recipe-detail img {
-  width: 100%;
-  max-width: 500px;
+	width: 100%;
+	max-width: 500px;
 }
 
 .recipe-detail h1 {
-  font-size: xx-large;
-  margin-bottom: 20px;
+	font-size: xx-large;
+	margin-bottom: 20px;
 }
 
 .recipe-detail img {
-  width: 350px;
-  margin-bottom: 20px;
+	width: 350px;
+	margin-bottom: 20px;
 }
 
 .recipe-detail h2 {
-  margin: 20px;
+	margin: 20px;
 }
 
 .recipe-detail li {
-  margin-bottom: 10px;
+	margin-bottom: 10px;
 }
 
 fieldset {
-  border: 2px solid #00000036; /* 윤곽선 색상과 두께 설정 */
-  border-radius: 10px; /* 모서리를 둥글게 */
-  background-color: #00000036;
-  margin-bottom: 20px;
+	border: 2px solid #00000036; /* 윤곽선 색상과 두께 설정 */
+	border-radius: 10px; /* 모서리를 둥글게 */
+	background-color: #00000036;
+	margin-bottom: 20px;
 }
