@@ -15,7 +15,8 @@ body {
 .container {
   background-color: white;
   display: flex;
-  align-items: stretch;
+  justify-content: center;
+  width: 100%;
   /* margin: auto; */
 }
 
@@ -24,10 +25,14 @@ header {
   color: white;
   padding: 10px;
   width: 100%;
+  text-align: center;
+}
+header h1 {
+  margin-bottom: 20px;
 }
 
-li {
-  list-style: none;
+ul li {
+  /* list-style: none; */
 }
 
 nav a {
@@ -37,34 +42,14 @@ nav a {
   font-weight: bold;
 }
 
-.recipe img {
+.recipe-detail {
+  padding: 10px;
+  /* background: #fff0e0; */
+  padding-top: 20px;
+}
+.recipe-detail img {
   width: 100%;
   max-width: 500px;
-  border-radius: 10px;
-}
-
-.recipes {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  padding: 20px;
-}
-
-.recipe {
-  border: 1px solid #ddd;
-  padding: 10px;
-  border-radius: 10px;
-  background: #fff0e0;
-}
-
-.recipe img {
-  width: 200px;
-  height: 150px;
-  object-fit: cover;
-}
-
-.recipe-detail {
-  padding-top: 20px;
 }
 
 .recipe-detail h1 {
@@ -83,4 +68,11 @@ nav a {
 
 .recipe-detail li {
   margin-bottom: 10px;
+}
+
+fieldset {
+  border: 2px solid #00000036; /* 윤곽선 색상과 두께 설정 */
+  border-radius: 10px; /* 모서리를 둥글게 */
+  background-color: #00000036;
+  margin-bottom: 20px;
 }
